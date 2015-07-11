@@ -1,0 +1,176 @@
+body {
+    font-family: Arial;
+    min-height: 100%;
+    min-width: 1024px;    
+}
+
+.cabecalho {
+    background-color: orange;
+    max-width: 100%;   
+}
+
+ h1{
+    color: antiquewhite;
+    font-size: 100px;
+    font-weight: normal;
+    margin: 20px;
+    text-align: right;
+}
+
+.cabecalho p{        
+    color: antiquewhite;
+    font-size: 40px;    
+    margin: 20px;
+    text-align: right;
+}
+
+
+.menu {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.menu ul {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.menu li {
+    background-color: chocolate;
+    border: 10px;
+    color: white;
+    display: inline;
+    font-family: fantasy;
+    font-size:30px;  
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;   
+}
+
+.conteudo {
+    background-color:bisque; 
+    display: inline-flex;
+    margin-top: 20px;
+    width: 100%;
+   
+    
+}
+
+ .misao {  
+    display: inline-table;
+    margin: 20px 100px 20px 100px;
+    
+}
+
+
+.misao p{
+    background-color: coral;  
+    color: white;
+    font-family: Arial;
+    font-size: 20px; 
+    max-width: 225px;    
+    padding: 20px 5px 20px 5px;
+    text-align: center;
+     
+}
+
+.visao {  
+    display: inline-table;
+    margin: 20px 100px 20px 100px; 
+    
+}
+
+.visao p{
+    background-color: coral;  
+    color: white;
+    font-family: Arial;
+    font-size: 20px;      
+    max-width: 225px;
+    padding: 20px 5px 20px 5px;
+    text-align: center;
+    
+}
+
+.valores {
+    display: inline-table;
+    margin: 20px 100px 20px 100px;
+    
+}
+
+.valores p{
+    background-color: coral;  
+    color: white;
+    font-family: Arial;
+    font-size: 20px;    
+    max-width: 225px;     
+    padding: 20px 5px 20px 5px;
+    text-align: center;    
+}
+
+h2 {
+    background-color: coral;   
+    color:white;
+    padding: 20px;
+}
+.contato{
+    width: 100%;
+}
+form.contato label{
+	margin-top: 10px;
+}
+form.contato select{
+	margin-bottom: 25px;
+}
+form.contato .ddd-telefone{
+	width: 300px;
+}
+form.contato div.um{
+	float: left;
+}
+form.contato div.dois{
+	float: right;
+}
+div.um, div.dois{
+	margin-bottom: 10px;
+}
+form.contato label, textarea{
+	display: block;
+}
+form.contato {
+	width: 600px;
+
+}
+form.contato input{
+	width: 250px;
+}
+form.contato input#DDD{
+	width: 30px;
+} 
+form.contato input#telefone{
+	width: 210px;
+}
+
+form.contato input#enviar{
+	width: auto;
+}
+
+form.contato textarea{
+    height: 140px;
+	width: 380px;
+	
+}
+.caixa-contato{
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.rodape{
+	background-color: coral;   
+    color:white;
+    font-size: 30px;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+}
